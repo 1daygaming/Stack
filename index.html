@@ -1,5 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>3D Tower Result Final</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <canvas id="canvas"></canvas>
+<div class="score-container">
+    <span id="score">0</span>
+</div>
+<div class="start-screen">
+    <h1>Stacker</h1>
+    <div class="rules">
+        <p>Кликайте, чтобы устанавливать блоки</p>
+        <p>Выстройте башню как можно выше</p>
+    </div>
+    <button id="start-button">Играть</button>
+</div>
 <div class="board">
     <p>Game Over</p>
     <button id="button">Restart</button>
 </div>
+<!-- partial -->
+  <script type="module" src="./script.min.js"></script>
+
+</body>
+</html>
